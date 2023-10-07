@@ -8,6 +8,9 @@
     width: calc(100% - 175px);
     margin-left: 175px;
   }
+  &page{
+    padding: 15px;
+  }
   &sidebar {
     position: fixed;
     top: 0;
@@ -26,6 +29,13 @@
       ul {
         margin: 0;
         padding: 0;
+        .logout{
+          color: var(--primary-600);
+          &:hover{
+            color: var(--white-100);
+            background-color: var(--primary-600);
+          }
+        }
         li {
           display: block;
           list-style: none;
